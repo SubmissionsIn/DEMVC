@@ -1,1 +1,1 @@
-The trained models.
+The trained models are put here.
