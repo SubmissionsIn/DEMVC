@@ -12,7 +12,7 @@ train_ae = False
 data = 'MNIST_USPS_COMIC'     
 # the tested datasets contain:
 # 'MNIST_USPS_COMIC'        (CAE)
-# 'BDGP'                                 (FAE)
+# 'BDGP'                    (FAE)
 
 # run the code：
 python main.py
