@@ -16,3 +16,12 @@ data = 'MNIST_USPS_COMIC'
 
 # run the code：
 python main.py
+
+@article{xu2021deep,
+  title={Deep embedded multi-view clustering with collaborative training},
+  author={Xu, Jie and Ren, Yazhou and Li, Guofeng and Pan, Lili and Zhu, Ce and Xu, Zenglin},
+  journal={Information Sciences},
+  volume={573},
+  pages={279--290},
+  year={2021}
+}
