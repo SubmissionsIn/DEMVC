@@ -100,7 +100,7 @@ if __name__ == "__main__":
     train_ae = False
     # setting the datasets
     data = 'MNIST_USPS_COMIC'
-    View = 1           # Selecting the best view as the first referred view (The first view to be the referred view)
+    View = 1           # Better performance can be obtained by selecting the best view as the first referred view (The first view to be the referred view)
     epochs = 500       # 500 epochs for pre-train AEs
     Update_Coo = 200   # iterations to update self-supervised objective
     Maxiter = 20000    # Max iterations for DEMVC
