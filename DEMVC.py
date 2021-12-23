@@ -336,7 +336,8 @@ class MvDEC(object):
         for view in range(len(x)):
             y_pred.append(kmeans.fit_predict(features[view]))
             # np.save('TC'+str(view+1)+'.npy', [kmeans.cluster_centers_])
-            center.append(np.load('TC'+str(view+1)+'.npy'))
+            # center.append(np.load('TC'+str(view+1)+'.npy'))
+            center.append([kmeans.cluster_centers_])
 
         for view in range(len(x)):
             acc = np.round(Nmetrics.acc(y, y_pred[view]), 5)
